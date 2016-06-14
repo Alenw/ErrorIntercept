@@ -13,6 +13,7 @@
 		60BEEC851D0FAA0800E6DF64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BEEC831D0FAA0800E6DF64 /* Main.storyboard */; };
 		60BEEC871D0FAA0800E6DF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BEEC861D0FAA0800E6DF64 /* Assets.xcassets */; };
 		60BEEC8A1D0FAA0800E6DF64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BEEC881D0FAA0800E6DF64 /* LaunchScreen.storyboard */; };
+		60BEEC931D0FB0AD00E6DF64 /* NSObject+AwError.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BEEC921D0FB0AD00E6DF64 /* NSObject+AwError.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		60BEEC861D0FAA0800E6DF64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60BEEC891D0FAA0800E6DF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60BEEC8B1D0FAA0800E6DF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60BEEC911D0FB0AD00E6DF64 /* NSObject+AwError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AwError.h"; sourceTree = "<group>"; };
+		60BEEC921D0FB0AD00E6DF64 /* NSObject+AwError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AwError.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				60BEEC7E1D0FAA0800E6DF64 /* AppDelegate.m */,
 				60BEEC801D0FAA0800E6DF64 /* ViewController.h */,
 				60BEEC811D0FAA0800E6DF64 /* ViewController.m */,
+				60BEEC911D0FB0AD00E6DF64 /* NSObject+AwError.h */,
+				60BEEC921D0FB0AD00E6DF64 /* NSObject+AwError.m */,
 				60BEEC831D0FAA0800E6DF64 /* Main.storyboard */,
 				60BEEC861D0FAA0800E6DF64 /* Assets.xcassets */,
 				60BEEC881D0FAA0800E6DF64 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				60BEEC821D0FAA0800E6DF64 /* ViewController.m in Sources */,
 				60BEEC7F1D0FAA0800E6DF64 /* AppDelegate.m in Sources */,
+				60BEEC931D0FB0AD00E6DF64 /* NSObject+AwError.m in Sources */,
 				60BEEC7C1D0FAA0800E6DF64 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
